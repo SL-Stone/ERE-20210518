@@ -8,3 +8,4 @@
 以“model”开头的.py文件定义模型和评估函数
 
 我的毕设项目的主模型是
+https://github.com/SL-Stone/ERE-20210518/blob/a0cb36948b415b8842645845af0502e9482cce9a/model_image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%841.png
