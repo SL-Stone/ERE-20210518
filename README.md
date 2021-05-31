@@ -5,7 +5,8 @@
 
 ![image](https://github.com/SL-Stone/ERE-20210518/blob/a0cb36948b415b8842645845af0502e9482cce9a/model_image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%841.png)
 
-1.采用[BERT预训练模型](https://www.aclweb.org/anthology/N19-1423/)bert-base-cased生成词向量
+1.采用BERT预训练模型bert-base-cased生成词向量,[BERT: Pre-training of Deep Bidirectional Transformers for
+Language Understanding](https://www.aclweb.org/anthology/N19-1423/)
 
 2.模型分为头实体识别模块和关系及其尾实体识别模块，每个模块结构structure：Bi-LSTM + Self-Attenion Mechanism + Bi-LSTM
 
@@ -15,7 +16,11 @@
 数据集 / Dataset: [NYT](https://github.com/weizhepei/CasRel/tree/master/data/NYT)
 
 
+Python版本：python 3.8.5 Pytorch版本：torch 1.8.0 Transformers版本：transformers 4.4.2
+
+
 文件说明：
+
 以“run”开头的.py文件是程序运行入口，包含模型训练和评估 / The .py programs whose names begin with "run" is the execution entry point, containing model training and evaluation.
 
 以“data_loader”开头的.py文件完成数据预处理
