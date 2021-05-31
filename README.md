@@ -29,3 +29,5 @@
 5.runG_ls.py:删除模型的Self-Atention机制部分，进行消融分析。data_loader1.py 和 modelG_ls.py。
 
 6.runG_att.py:删除模型的第二个Bi-LSTM层，进行消融分析。data_loader1.py 和 modelG_att.py。
+
+本文实体关系联合抽取模型的F1值可达0.758，可以抽取重叠的关系三元组，SEO（SingleEntityOverlap）、EPO（EntityPairOverlap）
