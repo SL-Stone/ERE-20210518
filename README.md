@@ -11,6 +11,10 @@
 
 3.采用Wei等人提出的CASREL序列标注策略，[A Novel Cascade Binary Tagging Framework](https://arxiv.org/abs/1909.03227)
 
+
+数据集 / Dataset: [NYT](https://github.com/weizhepei/CasRel/tree/master/data/NYT)
+
+
 文件说明：
 以“run”开头的.py文件是程序运行入口，包含模型训练和评估 / The .py programs whose names begin with "run" is the execution entry point, containing model training and evaluation.
 
