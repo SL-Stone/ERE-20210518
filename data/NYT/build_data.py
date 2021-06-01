@@ -29,7 +29,7 @@ with open('new_train.json') as f:
                 rel_set.add(rm['label'])
 
 
-with open('new_valid.json') as f:  #原文档为dev.json，根据含义此处为验证集
+with open('new_valid.json') as f:  #验证集
     for l in tqdm(f):
         a = json.loads(l)
         if not a['relationMentions']:
