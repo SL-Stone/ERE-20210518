@@ -12,11 +12,10 @@ device = torch.device('cuda:0'if torch.cuda.is_available() else 'cpu')
 if __name__ == '__main__':
     
     dataset = 'NYT'
-    train_path = 'data/'+dataset+'/train_triples1.json'
-    dev_path = './data/'+dataset+'/dev_triples1.json'
-    test_path = './data/'+dataset+'/test_triples1.json' # overall test
-    rel_dict_path = './data/'+dataset+'/rel2id1.json'    
-    output_path = './data/'+dataset+'/output1.json'
+    train_path = 'data/'+dataset+'/train_triples.json'
+    dev_path = './data/'+dataset+'/dev_triples.json'
+    test_path = './data/'+dataset+'/test_triples.json' # overall test
+    rel_dict_path = './data/'+dataset+'/rel2id.json'    
     LR = 2e-5
     tokenizer = BertTokenizer.from_pretrained("bert-base-cased")
     train_data, dev_data, test_data, id2rel, rel2id, num_rels = load_data(train_path, dev_path, test_path, rel_dict_path)
