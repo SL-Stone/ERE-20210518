@@ -3,7 +3,7 @@
 
 我的毕设项目的主模型结构如下：An overview of the framework of my models. 
 
-![image](https://github.com/SL-Stone/ERE-20210518/blob/a0cb36948b415b8842645845af0502e9482cce9a/model_image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%841.png)
+![image](https://github.com/SL-Stone/ERE-20210518/blob/c478b4623c9cbd327031a73fd1827e1a458dd2a3/model_image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%840.png)
 
 1.采用BERT预训练模型bert-base-cased生成词向量,[BERT: Pre-training of Deep Bidirectional Transformers for
 Language Understanding](https://www.aclweb.org/anthology/N19-1423/)
