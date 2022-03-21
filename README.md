@@ -1,10 +1,10 @@
 # 实体关系联合抽取模型
 
-#### My project on joint exraction of entities and relations
+## My project on joint exraction of entities and relations
 
 
 
-#### Model Structure
+### Model Structure
 
 ![image](https://github.com/SL-Stone/ERE-20210518/blob/c478b4623c9cbd327031a73fd1827e1a458dd2a3/model_image/%E6%A8%A1%E5%9E%8B%E7%BB%93%E6%9E%840.png)
 
@@ -16,13 +16,13 @@
 
 
 
-#### Dataset
+### Dataset
 
 [NYT](https://github.com/weizhepei/CasRel/tree/master/data/NYT)
 
 
 
-#### Requirements
+### Requirements
 
 Python: `python 3.8.5` 
 
@@ -32,7 +32,7 @@ Transformers: `transformers 4.4.2`
 
 
 
-#### Documentation
+### Documentation
 
 Program execution entry: `run***.py`, containing model training and evaluation.
 
@@ -60,7 +60,7 @@ Model Structure: `model***.py`.
 
 
 
-#### Performance
+### Performance
 
 F1: 0.758.
 
